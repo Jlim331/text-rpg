@@ -1,4 +1,4 @@
-# Mazie Boi
+# Mazey Boi
 
 Mazey boi is a rpg base maze game
 
