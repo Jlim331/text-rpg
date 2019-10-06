@@ -18,3 +18,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Updated README.md
 - Updated CHANGELOG.md
+
+## [0.0.3] - 2019-10-03
+### Changed
+- Added task in To do list and marked Create a README.md, Create CHANGELOG.md
+and Create a To do list done 
