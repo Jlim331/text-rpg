@@ -1,6 +1,6 @@
-# Mazey Boi
+# Mazy boi
 
-Mazey boi is a rpg base maze game
+Mazy boi is a rpg base maze game
 
 ## Installation
 
@@ -9,5 +9,5 @@ Python 3.7 is needed to play this game. [Pyhon 3.7](https://www.python.org/downl
 ## Usage
 
 ```python
-python main.py
+python game.py
 ```
