@@ -53,5 +53,7 @@ hero = {
         }
 }
 
+print(hero["inventory"])
 for character, info in hero.items():
     print(character)
+    print(info)
