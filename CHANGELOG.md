@@ -22,4 +22,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.3] - 2019-10-03
 ### Changed
 - Added task in To do list and marked Create a README.md, Create CHANGELOG.md
-and Create a To do list done 
+and Create a To do list done
+
+## [0.0.4] - 2019-10-24
+### Added
+ - Created properties.py to contain nested dictionaries
+
+### Changed
+ - Update to task.todo
