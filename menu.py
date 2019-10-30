@@ -6,23 +6,24 @@
 
 def menuSample(menuName):
     global choice
+    choices = list(menuName)
     for key in menuName:
         print("\tPath " + key)
-    choice = input("")
+    choice = input("What path shall thoust choose?\n")
     for key in menuName:
-        if choice == key or choice == "path " + key or choice == "Path " + key:
+        if choice == key:
             print(f"You have chose Path {key}")
-        while choice not in ["1", "2", "3",]:
-            print("Invalid input, please try again.")
+        while str(choice) not in choices:
+            print(f"I got, {str(choices)[1:-1]} watchu want?")
             choice = input("")
             for key in menuName:
-                if choice == key or choice == "path " + key or choice == "Path " + key:
+                if choice == key:
                     print(f"You have chose Path {key}")
-menu = {
+startPath = {
     "1": "A level 1 mob appears",
     "2": """You find yourself in a room, you have a choice to go left or
     right""",
     "3": "You are in a forest."
 }
-print("Welcome to Mazy Boi \nWhat path shall thoust choose?")
-menuSample(menu)
+print("Welcome to Mazy Boi")
+menuSample(startPath)
