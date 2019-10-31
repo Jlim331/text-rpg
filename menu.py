@@ -11,8 +11,6 @@ def menuSample(menuName):
         print("\tPath " + key)
     choice = input("What path shall thoust choose?\n")
     for key in menuName:
-        if choice == key:
-            print(f"You have chose Path {key}")
         while str(choice) not in choices:
             print(f"I got, {str(choices)[1:-1]} watchu want?")
             choice = input("")
