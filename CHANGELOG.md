@@ -31,7 +31,7 @@ and Create a To do list done
 ### Changed
  - Update to task.todo
 
-## [0.0.4] - 2019-10-24
+## [0.0.5] - 2019-10-24
 ### Added
  - Created menu.py that will be the base of the text base adventure game for
  interaction
